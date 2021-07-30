@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+       <nav>
+           <a href="index.html"><img src="/eduford_img/logo.jpg" alt="logo"></a>
+           <div class="nav-link" id="navlink">
+              <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i> 
+       </nav> 
+       <div class="text-box">
+           <h1>kanpur's  Biggest institute</h1>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quod commodi fugiat culpa          reprehenderit. Sapiente quis impedit praesentium ad? Accusamus!
+           </p>
+           <a href="" class="btn-head">Visit Us To Know More</a>
+       </div>
+    </section>
+
+
+        <!-- Course -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quos totam.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>BCA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident fugiat, laboriosam iure impedit autem perspiciatis suscipit veniam voluptatum unde velit. Architecto praesentium error tempora. Perspiciatis, ex. Totam, quia. Cumque fugiat repellat animi doloribus maiores, !</p>
+            </div>
+            <div class="course-col">
+                <h3>BBA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident fugiat, laboriosam iure impedit autem perspiciatis suscipit veniam voluptatum unde velit. Architecto praesentium error tempora. Perspiciatis, ex. Totam, quia. Cumque fugiat repellat animi doloribus maiores, </p>
+            </div>
+            <div class="course-col">
+                <h3>MCA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident fugiat, laboriosam iure impedit autem perspiciatis suscipit veniam voluptatum unde velit. Architecto praesentium error tempora. Perspiciatis, ex. Totam, quia. Cumque fugiat repellat animi doloribus maiores, </p>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- --------institute-------- -->
+    <section class="insti">
+        <h1>Our Institute</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, perferendis.</p>
+
+        <div class="row">
+            <div class="insti-col">
+                <img src="/eduford_img/london.png" alt="london">
+                <div class="layer">
+                    <h3>kanpur</h3>
+                </div>
+            </div>
+            <div class="insti-col">
+                <img src="/eduford_img/newyork.png" alt="london">
+                <div class="layer">
+                    <h3>kanpur</h3>
+                </div>
+            </div>
+            <div class="insti-col">
+                <img src="/eduford_img/washington.png" alt="london">
+                <div class="layer">
+                    <h3>kanpur</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--------Facilities ------>
+    <section class="facility">
+        <h1>Our Facilities</h1> 
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, corporis.</p>
+
+        <div class="row">
+            <div class="facility-col">
+                <img src="/eduford_img/library.png" alt="library">
+                <h3>Institute Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quis voluptates temporibus hic laborum voluptas quidem! Veritatis beatae autem deleniti.</p>
+            </div>
+            <div class="facility-col">
+                <img src="/eduford_img/basketball.png" alt="library">
+                <h3>Institute Play-Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quis voluptates temporibus hic laborum voluptas quidem! Veritatis beatae autem deleniti.</p>
+            </div>
+            <div class="facility-col">
+                <img src="/eduford_img/cafeteria.png" alt="food">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quis voluptates temporibus hic laborum voluptas quidem! Veritatis beatae autem deleniti.</p>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- -----call to action-------->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br> Anywhere From kanpur</h1>
+        <a href="" class="btn-head">CONTACT US</a>
+
+    </section>
+
+
+    <!-- -----footer------>
+    <secttion class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam quia, officia fugiat magnam at harum laudantium<br/> assumenda eius incidunt! Est aspernatur minima dignissimos illo, voluptate blanditiis dolore deleniti accusamus!</p>
+        
+        <h5>--Made by YASH--</h5>
+    </secttion>
+
+          <!-- Javascript for toggle menu -->
+    <script>
+        var navlink = document.getElementById("navlink")
+
+        function showmenu() {
+            navlink.style.right ="0";
+        }
+        function hidemenu() {
+            navlink.style.right ="-150px";
+        }
+    </script>
+</body>
+</html>
